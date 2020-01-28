@@ -6,3 +6,4 @@ SELECT TOP 10
       ,[ActorDOB]
       ,[ActorGender]
 FROM [Movies].[dbo].[tblActor]
+WHERE ActorGender='Male'
